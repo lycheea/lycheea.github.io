@@ -10,7 +10,7 @@ description: "Lập trình cơ bản"
 
 
 
-###### Source Code:
+**Source Code:**
 {% highlight cpp %}
 #include <iostream>
 
@@ -20,5 +20,8 @@ int main(){
 {% endhighlight %}
 
 
-###### My template
+
+**My template**
+
 <script src="https://ideone.com/e.js/bXpRdn" type="text/javascript" ></script>
+
