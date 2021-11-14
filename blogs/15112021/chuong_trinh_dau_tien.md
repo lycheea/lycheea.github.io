@@ -11,10 +11,10 @@ description: "Lập trình cơ bản"
 
 
 ###### Source Code:
-```cpp
+{% highlight cpp %}
 #include <iostream>
 
 int main(){
 	std::cout << "Hello World";
 }
-```
+{% endhighlight %}

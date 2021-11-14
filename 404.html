@@ -1,25 +1,108 @@
----
-permalink: /404.html
-layout: default
----
+<html>
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+<head>
+</head>
+
+<style>
+	@import url("https://fonts.googleapis.com/css?family=Bevan");
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	body {
+		background: black;
+		overflow: hidden;
+	}
+	p {
+		font-family: "Menlo", cursive;
+		font-size: 130px;
+		margin: 10vh 0 0;
+		text-align: center;
+		letter-spacing: 5px;
+		background-color: white;
+		color: transparent;
+		text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		background-clip: text;
+		span {
+			font-size: 1.2em;
+		}
+	}
+	code {
+		color: #bdbdbd;
+		text-align: left;
+		display: block;
+		font-size: 16px;
+		margin: 0 30px 25px;
+
+		span {
+			color: #f0c674;
+		}
+
+		i {
+			color: #b5bd68;
+		}
+
+		em {
+			color: #b294bb;
+			font-style: unset;
+		}
+		b {
+			color: #81a2be;
+			font-weight: 500;
+		}
+	}
+	a {
+		color: #8abeb7;
+		font-family: monospace;
+		font-size: 20px;
+		text-decoration: underline;
+		margin-top: 10px;
+		display: inline-block
+	}
+	@media screen and (max-width: 880px) {
+		p {
+			font-size: 14vw;
+		}
+	}
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<body>
+	<p>ERROR: <span>404</span></p>
+	<br><br>
+	<code>BOOL *<span>page</span>_<em>not_found</em> = TRUE;</code>
+	<code>BOOL *<span>no_one</span>_<em>caused_this</em> = TRUE;</code>
+	<code><span>if</span> (<b>spelling_incorrent</b>) { <br><br>&nbsp;&nbsp;<span>[self tryAgain]</span>;</code>
+	<code><span>} else if (<b>someone_caused_this</b>)</span> { <br><br>&nbsp;&nbsp;<em>NSLog</em>(<i>"Sorry about that!"</i>); <br><br>&nbsp;&nbsp;<span>[self returnToHomepage];</span> <br><br>&nbsp;&nbsp; // Press the button below to return to homepage<br><br>}</code>
+	<center><a href="https://lycheea.github.io">RETURN HOME</a></center>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+ <script>
+	 function type(n, t) {
+    var str = document.getElementsByTagName("code")[n].innerHTML.toString();
+    var i = 0;
+    document.getElementsByTagName("code")[n].innerHTML = "";
+
+    setTimeout(function() {
+        var se = setInterval(function() {
+            i++;
+            document.getElementsByTagName("code")[n].innerHTML =
+                str.slice(0, i) + "|";
+            if (i == str.length) {
+                clearInterval(se);
+                document.getElementsByTagName("code")[n].innerHTML = str;
+            }
+        }, 30);
+    }, t);
+}
+
+type(0, 0);
+type(1, 1000);
+type(2, 2000);
+type(3, 3000);
+
+</script>
+</body>
+
+</html>
