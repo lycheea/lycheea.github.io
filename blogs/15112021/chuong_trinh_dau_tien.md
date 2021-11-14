@@ -18,3 +18,7 @@ int main(){
 	std::cout << "Hello World";
 }
 {% endhighlight %}
+
+
+###### My template
+<script src="https://ideone.com/e.js/bXpRdn" type="text/javascript" ></script>
