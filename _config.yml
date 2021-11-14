@@ -1,0 +1,13 @@
+title: Lycheea
+email: startuplycheea@gmail.com
+description: >- 
+  "The first two Musketeers from CTQH"
+baseurl: ""
+url: "https://lycheea.github.io"
+twitter_username: lycheeastartup
+github_username:  lycheea
+repository: lycheea/lycheea.github.io
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-feed
