@@ -17,9 +17,9 @@ image: /assets/img/banner_bg/19.jpg
 
 ***Câu chuyện:*** vào một đêm không trăng không sao bạn Hiên tới nhà bạn Hưng và nói bạn Hưng rằng:
 
-> Em đang nghĩ một số từ 1 đến 10. Đố anh có thể đoán được số em nghĩ mà chỉ cần dùng 4 lần đoán? Nếu đoán được em sẽ đồng ý làm vợ anh!!!
+> Em đang nghĩ một số từ $$1$$ đến $$10$$. Đố anh có thể đoán được số em nghĩ mà chỉ cần dùng $$4$$ lần đoán? Nếu đoán được em sẽ đồng ý làm vợ anh!!!
 
-Cơ hội tốt như thế này thì chắc chắn Hưng không bỏ qua, tuy nhiên việc đoán đúng trong 4 lần là rất khó khi tỉ tệ chỉ là $$4/10 = 40%$$. Do đó bạn Hưng đã đề nghị bạn Hiên rằng: với mỗi lần đoán bạn Hiên sẽ nói ra xem số bạn Hưng đoán là lớn hơn, bé hơn hay bằng với số mà bạn Hiên đoán. Bạn Hiên ngây thơ nên đã đồng ý.
+Cơ hội tốt như thế này thì chắc chắn Hưng không bỏ qua, tuy nhiên việc đoán đúng trong $$4$$ lần là rất khó khi tỉ tệ chỉ là $$4/10 = 40%$$. Do đó bạn Hưng đã đề nghị bạn Hiên rằng: với mỗi lần đoán bạn Hiên sẽ nói ra xem số bạn Hưng đoán là lớn hơn, bé hơn hay bằng với số mà bạn Hiên đoán. Bạn Hiên ngây thơ nên đã đồng ý.
 
 Sau đó trò chơi giữa hai bạn diễn ra như sau:
 
