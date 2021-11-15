@@ -57,7 +57,6 @@ Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà ch�
 
 
 
-```mathematica
+```
 $ \sum_{\forall i}{x_i^{2}} $
 ```
-
