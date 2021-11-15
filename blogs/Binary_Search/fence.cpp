@@ -10,12 +10,8 @@ const lli INF = 1e11+7;
 lli n,k;
 lli num[N];
 
-//Bước kiểm tra với chiều dài x
-//Bạn đọc tự hiểu phần này
 bool query(lli x) {
-    lli res = 0;
-    for(int i = 1; i <= n; i++) res += num[i] / x;
-    return res >= k;
+    //Tự code
 }
 
 #define TASK "fence"
