@@ -122,9 +122,11 @@ Ta nhận thấy xử lý số chấm động rất khó cài đặt và dễ x�
 
 
 
-##### Code mẫu:
+##### Code mẫu: 
 
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2FBinary_Search%2Ffence.cpp&style=monokai-sublime&showCopy=on"></script>
+
+Độ phức tạp $$\mathcal{O}(n\log{}n)$$
 
 
 
