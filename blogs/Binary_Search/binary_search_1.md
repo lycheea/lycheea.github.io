@@ -6,14 +6,17 @@ description: "C++"
 image: /assets/img/banner_bg/19.jpg
 ---
 
-# Tìm kiếm nhị phân
+## Hành trình lấy vợ của Hưng và thuật toán tìm kiếm nhị phân
+
 ## Viết bởi: LamTer
 
 
 
 {% raw %}
 
-### **Tìm kiếm nhị phân là gì?**
+### Phần 1: Số của Hưng là số đỏ?
+
+**Trong phần này chúng ta sẽ cùng tìm hiểu xem tìm kiếm nhị phân là gì**
 
 ***Câu chuyện:*** vào một đêm không trăng không sao bạn Hiên tới nhà bạn Hưng và nói bạn Hưng rằng:
 
@@ -23,19 +26,19 @@ Cơ hội tốt như thế này thì chắc chắn Hưng không bỏ qua, tuy nh
 
 Sau đó trò chơi giữa hai bạn diễn ra như sau:
 
-> Hưng: anh đoán số 5
+> Hưng: anh đoán số $$5$$
 >
 > Hiên: số của anh bé hơn số của em ó ^^
 >
-> Hưng: vậy thì anh đoán số 7
+> Hưng: vậy thì anh đoán số $$7$$
 >
 > Hiên: số của anh bé hơn số của em ó
 >
-> Hưng: vậy thì anh đoán số 9
+> Hưng: vậy thì anh đoán số $$9$$
 >
 > Hiên: số của anh lớn hơn số của em ó
 >
-> Hưng: vậy thì là số 8 thôi!!
+> Hưng: vậy thì là số $$8$$ thôi!!
 >
 > Hiên: Đúng gùiiii. Sao anh biết hay quá trời luôn <3
 >
@@ -51,7 +54,15 @@ Và sau đó là một màn phát cơm chó rất đặc sắc. Tuy nhiên ta b�
 
 - Trong lần đoán thứ ba thì Hưng tiếp tục đoán số nằm giữa $$8$$ và $$10$$ là $$9$$. Thì Hiên bảo số Hưng đã lớn hơn số Hiên rồi. Từ đây suy ra số đó chỉ có thể là số $$8$$.
 
-Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần $$4$$ lần đoán. Tổng quát thì nếu như Hiên cho hưng $$n$$ số để đoán thì Hưng chỉ cần dùng log2(n) lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
+Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần $$4$$ lần đoán. Tổng quát thì nếu như Hiên cho hưng $$n$$ số để đoán thì Hưng chỉ cần dùng $$\log_2 {n}$$ lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
+
+
+
+Code mẫu tìm kiếm nhị phân với các bài toán tìm giá trị chính xác:
+
+
+
+
 
 (Còn tiếp...)
 
