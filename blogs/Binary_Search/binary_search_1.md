@@ -50,3 +50,5 @@ Và sau đó là một màn phát cơm chó rất đặc sắc. Tuy nhiên ta b�
 - Trong lần đoán thứ ba thì Hưng tiếp tục đoán số nằm giữa 8 và 10 là 9. Thì Hiên bảo số Hưng đã lớn hơn số Hiên rồi. Từ đây suy ra số đó chỉ có thể là số 8.
 
 Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần 4 lần đoán. Tổng quát thì nếu như Hiên cho hưng n số để đoán thì Hưng chỉ cần dùng log2(n) lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
+
+(Còn tiếp...)
