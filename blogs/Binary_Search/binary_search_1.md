@@ -20,7 +20,7 @@ image: /assets/img/banner_bg/19.jpg
 
 
 
-***Câu chuyện:*** vào một đêm không trăng không sao bạn Hiên tới nhà bạn Hưng và nói bạn Hưng rằng:
+***Câu chuyện 1:*** vào một đêm không trăng không sao bạn Hiên tới nhà bạn Hưng và nói bạn Hưng rằng:
 
 > Em đang nghĩ một số từ $$1$$ đến $$10$$. Đố anh có thể đoán được số em nghĩ mà chỉ cần dùng $$4$$ lần đoán? Nếu đoán được em sẽ đồng ý làm vợ anh!!!
 
@@ -62,6 +62,14 @@ Vì chia đội tập nên số lần thực hiện tối đa như đã nói ở
 
 
 
+Điều kiện để chặt nhị phân:
+
+1. Có thể xác định phần tử giữa một cách rõ ràng.
+2. Có cách để kiểm tra "lớn hơn", "bé hơn".
+3. Nếu số x thõa mản tính chất thì bất kỳ số nào lớn hơn hoặc nhỏ hơn x cũng phải thỏa mãn (xem bài tập 1 ở phần 2 để rõ)
+
+
+
 Code mẫu tìm kiếm nhị phân với các bài toán tìm giá trị chính xác (như ví dụ đoán số ở trên):
 
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2FBinary_Search%2Fbinary_search_template_exactly.cpp&style=monokai-sublime&showCopy=on"></script>
@@ -80,7 +88,7 @@ Code mẫu đối với các bài toán tìm giá trị lớn nhất, bé nhất
 
 
 
-***Câu chuyện:*** Sau khi Hiên đồng ý lấy Hưng thì hai người về nhà vợ ra mắt. Bố Hiên thấy Hưng xong thì rất ưng ý và để bồi dưỡng tình cha con thì hai người hẹn nhau 6h sáng mai lên núi đốn củi cùng nhau. Sau khi đốn xong thì được $$n$$ thanh gỗ có độ dài lần lượt là $$a_1, a_2, a_3,..., a_n$$. Bố Hiên kể rằng mình đang muốn xây một cái hàng rào từ $$k$$ thanh gỗ có độ dài bằng nhau và độ dài mỗi thanh gỗ phải cao nhất để đảm bảo an toàn. Muốn lấy lòng bác gái Hưng đã quyết chí sẽ dựng rào cho bác nhưng Hưng lại không biết tính độ dài thanh gỗ cần cắt là bao nhiêu? Các bạn hãy giúp Hưng nhé!
+***Câu chuyện 2:*** Sau khi Hiên đồng ý lấy Hưng thì hai người về nhà vợ ra mắt. Bố Hiên thấy Hưng xong thì rất ưng ý và để bồi dưỡng tình cha con thì hai người hẹn nhau 6h sáng mai lên núi đốn củi cùng nhau. Sau khi đốn xong thì được $$n$$ thanh gỗ có độ dài lần lượt là $$a_1, a_2, a_3,..., a_n$$. Bố Hiên kể rằng mình đang muốn xây một cái hàng rào từ ít nhất $$k$$ thanh gỗ có độ dài bằng nhau và độ dài mỗi thanh gỗ phải cao nhất để đảm bảo an toàn. Muốn lấy lòng bác gái Hưng đã quyết chí sẽ dựng rào cho bác nhưng Hưng lại không biết tính độ dài thanh gỗ cần cắt là bao nhiêu? Các bạn hãy giúp Hưng nhé!
 
 
 
@@ -96,7 +104,21 @@ Code mẫu đối với các bài toán tìm giá trị lớn nhất, bé nhất
 
 
 
-*Bạn có thể nộp bài ở đây: https://domapp.hoanen.com/question/61618f4bb7298b3837930674/*
+*Bạn có [nộp bài ở đây](https://domapp.hoanen.com/question/61618f4bb7298b3837930674/)
+
+
+
+##### Solution:
+
+Nhận xét:
+
+- Ta nhận thấy nếu chiều dài $$l$$ có thể xây được hàng rào thì bất kỳ chiều dài nào bé hơn $$l$$ đều có thể dùng để xây được hàng rào
+
+- Ta có thể kiểm tra tính "bé hơn", "lớn hơn" của một chiều dài $$l$$ bất kỳ một cách nhanh chóng trong $$\mathcal{O}(n)$$
+
+--> Chặt nhị phân
+
+Ta nhận thấy xử lý số chấm động rất khó cài đặt và dễ xảy ra sai số nên khi nhập vào thì ta sẽ nhân tất cả $$a_i$$ lên 100 lần. Sau đó ta sẽ chặt và in ra kết quả chia cho 100. Dưới đây là code mẫu
 
 
 
