@@ -11,4 +11,4 @@ description: "Lập trình cơ bản"
 
 
 **Source Code:**
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2F15112021%2Fhelloworld.cpp&style=tomorrow-night-bright&showLineNumbers=on&showCopy=on"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2F15112021%2Fhelloworld.cpp&style=tomorrow-night-bright&showCopy=on"></script>
