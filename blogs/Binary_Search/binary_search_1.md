@@ -118,7 +118,7 @@ Nhận xét:
 
 --> Chặt nhị phân
 
-Ta nhận thấy xử lý số chấm động rất khó cài đặt và dễ xảy ra sai số nên khi nhập vào thì ta sẽ nhân tất cả $$a_i$$ lên 100 lần. Sau đó ta sẽ chặt và in ra kết quả chia cho 100. Dưới đây là code mẫu
+Ta nhận thấy xử lý số chấm động rất khó cài đặt và dễ xảy ra sai số nên khi nhập vào thì ta sẽ nhân tất cả $$a_i$$ lên $$100$$ lần. Sau đó ta sẽ chặt và in ra kết quả chia cho $$100$$. Dưới đây là code mẫu
 
 
 
