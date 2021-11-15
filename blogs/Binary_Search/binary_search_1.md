@@ -43,15 +43,15 @@ Sau đó trò chơi giữa hai bạn diễn ra như sau:
 
 Và sau đó là một màn phát cơm chó rất đặc sắc. Tuy nhiên ta bỏ qua vấn đề đó và cùng nhau phân tích sự khôn lỏi của Hưng trong tình huống này.
 
-- Ban đầu thì số của Hiên là một số từ 1 đến 10.
+- Ban đầu thì số của Hiên là một số từ $$1$$ đến $$10$$.
 
-- Trong lần đoán ban đầu thì Hưng đoán số nằm ở giữa 1 và 10 là số 5. Thì Hiên bảo là số Hưng bé hơn số Hiên từ đó thu hẹp khoảng cách đoán còn từ 6 đến 10
+- Trong lần đoán ban đầu thì Hưng đoán số nằm ở giữa $$1$$ và $$10$$ là số $$5$$. Thì Hiên bảo là số Hưng bé hơn số Hiên từ đó thu hẹp khoảng cách đoán còn từ $$6$$ đến $$10$$.
 
-- Trong lần đoán thứ hai thì Hưng tiếp tục đoán số nằm giữa 6 và 10 là số 7. Thì Hiên bảo là số Hưng vẫn bé hơn số Hiên từ đó thu hẹp khoảng cách đoán còn từ 8 đến 10.
+- Trong lần đoán thứ hai thì Hưng tiếp tục đoán số nằm giữa $$6$$ và $$10$$ là số $$7$$. Thì Hiên bảo là số Hưng vẫn bé hơn số Hiên từ đó thu hẹp khoảng cách đoán còn từ $$8$$ đến $$10$$.
 
-- Trong lần đoán thứ ba thì Hưng tiếp tục đoán số nằm giữa 8 và 10 là 9. Thì Hiên bảo số Hưng đã lớn hơn số Hiên rồi. Từ đây suy ra số đó chỉ có thể là số 8.
+- Trong lần đoán thứ ba thì Hưng tiếp tục đoán số nằm giữa $$8$$ và $$10$$ là $$9$$. Thì Hiên bảo số Hưng đã lớn hơn số Hiên rồi. Từ đây suy ra số đó chỉ có thể là số $$8$$.
 
-Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần 4 lần đoán. Tổng quát thì nếu như Hiên cho hưng n số để đoán thì Hưng chỉ cần dùng log2(n) lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
+Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần $$4$$ lần đoán. Tổng quát thì nếu như Hiên cho hưng $$n$$ số để đoán thì Hưng chỉ cần dùng log2(n) lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
 
 (Còn tiếp...)
 
