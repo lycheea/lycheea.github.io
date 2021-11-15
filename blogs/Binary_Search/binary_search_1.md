@@ -18,6 +18,8 @@ image: /assets/img/banner_bg/19.jpg
 
 **Trong phần này chúng ta sẽ cùng tìm hiểu xem tìm kiếm nhị phân là gì**
 
+
+
 ***Câu chuyện:*** vào một đêm không trăng không sao bạn Hiên tới nhà bạn Hưng và nói bạn Hưng rằng:
 
 > Em đang nghĩ một số từ $$1$$ đến $$10$$. Đố anh có thể đoán được số em nghĩ mà chỉ cần dùng $$4$$ lần đoán? Nếu đoán được em sẽ đồng ý làm vợ anh!!!
@@ -56,6 +58,8 @@ Và sau đó là một màn phát cơm chó rất đặc sắc. Tuy nhiên ta b�
 
 Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần $$4$$ lần đoán. Tổng quát thì nếu như Hiên cho hưng $$n$$ số để đoán thì Hưng chỉ cần dùng $$\log_2 {n}$$ lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
 
+Vì chia đội tập nên số lần thực hiện tối đa như đã nói ở trên là $$\log_2 {n}$$ và độ phức tạp trung bình là $$\mathcal{O}(\log{}n)$$
+
 
 
 Code mẫu tìm kiếm nhị phân với các bài toán tìm giá trị chính xác (như ví dụ đoán số ở trên):
@@ -67,6 +71,32 @@ Code mẫu tìm kiếm nhị phân với các bài toán tìm giá trị chính 
 Code mẫu đối với các bài toán tìm giá trị lớn nhất, bé nhất (tìm số lớn nhất, bé nhất không vượt quá số $$k$$ nằm trong mảng, ....):
 
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2FBinary_Search%2Fbinary_search_template_minmax.cpp&style=monokai-sublime&showCopy=on"></script>
+
+
+
+### Phần 2: Ra mắt mẹ vợ
+
+**Trong phần này chúng ta sẽ cùng làm một vài bài tập vận dụng cơ bản về chặt nhị phân**
+
+
+
+***Câu chuyện:*** Sau khi Hiên đồng ý lấy Hưng thì hai người về nhà vợ ra mắt. Bố Hiên thấy Hưng xong thì rất ưng ý và để bồi dưỡng tình cha con thì hai người hẹn nhau 6h sáng mai lên núi đốn củi cùng nhau. Sau khi đốn xong thì được $$n$$ thanh gỗ có độ dài lần lượt là $$a_1, a_2, a_3,..., a_n$$. Bố Hiên kể rằng mình đang muốn xây một cái hàng rào từ $$k$$ thanh gỗ có độ dài bằng nhau và độ dài mỗi thanh gỗ phải cao nhất để đảm bảo an toàn. Muốn lấy lòng bác gái Hưng đã quyết chí sẽ dựng rào cho bác nhưng Hưng lại không biết tính độ dài thanh gỗ cần cắt là bao nhiêu? Các bạn hãy giúp Hưng nhé!
+
+
+
+​	**fence.inp**
+
+​	Dòng đầu ghi hai số nguyên dương là $$n$$ và $$k$$ là số thanh gỗ đang có và số thanh gỗ cần dùng để dựng rào ($$1 \le n \le {10}^4, \ 1 \le k \le {10}^9$$)
+
+​	Mỗi dòng tiếp theo là một số nguyên dương là chiều dài thanh gỗ ($$a_i \le {10}^9$$)	
+
+​	**fence.out**
+
+​	Độ dài lớn nhất mỗi thanh gỗ với độ chính xác hai số thập phân
+
+
+
+*Bạn có thể nộp bài ở đây: https://domapp.hoanen.com/question/61618f4bb7298b3837930674/*
 
 
 
