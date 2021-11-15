@@ -11,7 +11,7 @@ image: /assets/img/banner_bg/19.jpg
 
 
 
-
+{% raw %}
 
 ### **Tìm kiếm nhị phân là gì?**
 
@@ -19,13 +19,9 @@ image: /assets/img/banner_bg/19.jpg
 
 > Em đang nghĩ một số từ 1 đến 10. Đố anh có thể đoán được số em nghĩ mà chỉ cần dùng 4 lần đoán? Nếu đoán được em sẽ đồng ý làm vợ anh!!!
 
-{% raw %}
-
 Cơ hội tốt như thế này thì chắc chắn Hưng không bỏ qua, tuy nhiên việc đoán đúng trong 4 lần là rất khó khi tỉ tệ chỉ là $$4/10 = 40%$$. Do đó bạn Hưng đã đề nghị bạn Hiên rằng: với mỗi lần đoán bạn Hiên sẽ nói ra xem số bạn Hưng đoán là lớn hơn, bé hơn hay bằng với số mà bạn Hiên đoán. Bạn Hiên ngây thơ nên đã đồng ý.
 
 Sau đó trò chơi giữa hai bạn diễn ra như sau:
-
-{% endraw %}
 
 > Hưng: anh đoán số 5
 >
@@ -58,4 +54,6 @@ Và sau đó là một màn phát cơm chó rất đặc sắc. Tuy nhiên ta b�
 Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà chỉ cần 4 lần đoán. Tổng quát thì nếu như Hiên cho hưng n số để đoán thì Hưng chỉ cần dùng log2(n) lần đoán. Và đây cũng là tư tưởng của tìm kiếm nhị phân. Chia đôi tập ra để tìm kiếm.
 
 (Còn tiếp...)
+
+{% endraw %}
 
