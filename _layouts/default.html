@@ -16,14 +16,24 @@
     {"description":"Lycheea","@type":"WebSite","headline":"{{ page.title | default: site.title | default: site.github.repository_name }}","name":"Lycheea","@context":"https://schema.org"}</script>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
+    <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .page-header {
+      background-image: url('{{ page.image | default: "/assets/img/banner_bg/18.jpg" }}');
+    }
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#000000">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <noscript>
       <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     </noscript>
-    
+
     <script src="/assets/js/darkmode.js"></script>
     <script>
       var options = {
@@ -43,12 +53,12 @@
     </navigation>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name" style="color: while">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline" style="color: while">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
     <main id="content" class="main-content" role="main">
-      {% include anchor_headings.html html=content anchorBody="#" %}
+      {% include anchor_headings.html html=content %}
     </main>
 
     <footer class="site-footer">

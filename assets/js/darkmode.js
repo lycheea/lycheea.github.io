@@ -11,8 +11,8 @@
   // Default values
   var defaults = {
     light: false,
-    dark: false,
-    checkSystemScheme: true,
+    dark: true,
+    checkSystemScheme: false,
   }
 
   /**
@@ -62,7 +62,7 @@
    * @return {String} Opposite Mode
    */
   var oppositeMode = function(mode) {
-    return mode === 'light' ? 'dark' : 'light'
+    return mode === 'light' ? 'dark' : 'dark'
   }
 
   /**

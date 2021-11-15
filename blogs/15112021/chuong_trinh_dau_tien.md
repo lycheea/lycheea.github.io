@@ -3,6 +3,7 @@ layout: default
 title:  "Chương trình đầu tiên"
 date:   2021-11-15 00:00:00 +0700
 description: "Lập trình cơ bản"
+image: /assets/img/banner_bg/7.jpg
 ---
 
 ## Chương trình đầu tiên
