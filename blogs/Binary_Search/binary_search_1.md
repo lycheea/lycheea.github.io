@@ -58,9 +58,15 @@ Và bằng cách thần kỳ trên thì Hưng đã đoán ra số Hiên mà ch�
 
 
 
-Code mẫu tìm kiếm nhị phân với các bài toán tìm giá trị chính xác:
+Code mẫu tìm kiếm nhị phân với các bài toán tìm giá trị chính xác (như ví dụ đoán số ở trên):
+
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2FBinary_Search%2Fbinary_search_template_exactly.cpp&style=monokai-sublime&showCopy=on"></script>
 
 
+
+Code mẫu đối với các bài toán tìm giá trị lớn nhất, bé nhất (tìm số lớn nhất, bé nhất không vượt quá số $$k$$ nằm trong mảng, ....):
+
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2FBinary_Search%2Fbinary_search_template_minmax.cpp&style=monokai-sublime&showCopy=on"></script>
 
 
 

@@ -21,5 +21,6 @@ int binary_searching() {
         else R = mid - 1; //Nếu không thì giảm giới hạn xuống
     }
 
+    //trả về kết quả
     return res;
 }
