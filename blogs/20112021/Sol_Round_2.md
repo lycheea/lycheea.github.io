@@ -13,7 +13,8 @@ image: /assets/img/banner_bg/6.jpg
 ###### tags: `ctqh`
 
 > Time Limit Exceed on test 4
-> [name=The Grader]
+>
+> ~ The Grader
 
 # Bài A
 
@@ -134,6 +135,7 @@ Không hiểu vì sao mọi người lại không làm được bài này :face_
 
 
 > Đừng bao giờ rời bỏ giấc mơ của bạn. Hãy tiếp tục ngủ đi.
-> [name=LamTer]
+>
+> ~ Lamter
 
 {% endraw %}
