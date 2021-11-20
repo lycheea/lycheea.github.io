@@ -16,6 +16,10 @@ image: /assets/img/banner_bg/6.jpg
 >
 > ~ The Grader
 
+
+### [Đọc đề ở đây](https://ctqh.contest.codeforces.com/group/vXCcGCcyH7/contest/355152)
+
+
 # Bài A
 
 Đây là bài trick.
