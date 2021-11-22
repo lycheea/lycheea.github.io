@@ -6,6 +6,13 @@ description: This is a list of blog posts written by members of Lycheea.
 image: /assets/img/banner_bg/16.jpg
 ---
 
+## [Sol Đề thi Giữa kỳ](/blogs/22112021/Sol_Giua_Ki.html)
+### November 22th, 2021
+
+> Sol Đề thi Giữa kỳ
+
+---
+
 ## [Sol Round #2](/blogs/20112021/Sol_Round_2.html)
 ### November 20th, 2021
 
