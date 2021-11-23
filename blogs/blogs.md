@@ -6,6 +6,13 @@ description: This is a list of blog posts written by members of Lycheea.
 image: /assets/img/banner_bg/16.jpg
 ---
 
+## [Sol 23-11-2021](/blogs/23112021/Sol_23112021.html)
+### November 23th, 2021
+
+> Sol 23-11-2021
+
+---
+
 ## [Sol Đề thi Giữa kỳ](/blogs/22112021/Sol_Giua_Ki.html)
 ### November 22th, 2021
 
