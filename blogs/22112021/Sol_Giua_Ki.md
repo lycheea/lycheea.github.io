@@ -22,7 +22,7 @@ Giả sử ta có chuỗi $s[1 \ldots n]$. Thì vòng tay tại vị trí $i$ ch
 Hoặc có một cách khác là ta có thể tạo một sâu $f = s[1 \ldots n] + s[1 \ldots n]$. Lúc vòng tay tại vị trí $i$ chính là xâu $f[i \ldots i + n - 1]$.
 
 ##### Code mẫu của bạn LamTer:
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -50,7 +50,7 @@ int main() {
 Thì code cẩn thận theo đề là sẽ được.
 
 ##### Code mẫu của bạn Nguyễn Bảo Khanh: 
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -110,7 +110,7 @@ Vậy nhiệm vụ của ta là tính ra $k$ và $m$.
 
 ##### Code mẫu của bạn LamTer:
 
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 
 using namespace std;
