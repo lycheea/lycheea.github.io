@@ -11,8 +11,8 @@
   // Default values
   var defaults = {
     light: false,
-    dark: true,
-    checkSystemScheme: false,
+    dark: false,
+    checkSystemScheme: true,
   }
 
   /**
@@ -62,7 +62,7 @@
    * @return {String} Opposite Mode
    */
   var oppositeMode = function(mode) {
-    return mode === 'light' ? 'dark' : 'dark'
+    return mode === 'light' ? 'dark' : 'light'
   }
 
   /**
@@ -162,7 +162,7 @@
       return window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches
         ? 'dark'
-        : 'dark'
+        : 'light'
     },
   }
 
