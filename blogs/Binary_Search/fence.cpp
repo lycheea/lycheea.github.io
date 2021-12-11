@@ -12,7 +12,7 @@ lli num[N];
 
 bool query(lli x) {
     lli res = 0;
-    for(int i = 1; i <= n; i++) res += num[i] / x;
+    for (int i = 1; i <= n; i++) res += num[i] / x;
     return res >= k;
 }
 
