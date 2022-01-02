@@ -128,14 +128,5 @@ Ta nhận thấy xử lý số chấm động rất khó cài đặt và dễ x�
 
 Độ phức tạp $$\mathcal{O}(n\log{}n)$$
 
-
-
-***KSEG***
-
-##### **Code mẫu:**
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Flycheea%2Flycheea.github.io%2Fblob%2Fmain%2Fblogs%2FBinary_Search%2Fkseg.cpp&style=monokai-sublime&showCopy=on&fetchFromJsDelivr=on"></script>
-
-Độ phức tạp $$\mathcal{O}(n\log{}n)$$
-
 {% endraw %}
 
